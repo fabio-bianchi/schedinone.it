@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/schedinone.it/static/css/main.1a2e4531.css",
-    "main.js": "/schedinone.it/static/js/main.c291d0d3.js",
-    "static/js/787.d8b5e362.chunk.js": "/schedinone.it/static/js/787.d8b5e362.chunk.js",
-    "static/media/logo.png": "/schedinone.it/static/media/logo.ecaf758ea66f89837254.png",
-    "index.html": "/schedinone.it/index.html",
-    "main.1a2e4531.css.map": "/schedinone.it/static/css/main.1a2e4531.css.map",
-    "main.c291d0d3.js.map": "/schedinone.it/static/js/main.c291d0d3.js.map",
-    "787.d8b5e362.chunk.js.map": "/schedinone.it/static/js/787.d8b5e362.chunk.js.map"
+    "main.css": "/static/css/main.1a2e4531.css",
+    "main.js": "/static/js/main.a8dd2674.js",
+    "static/js/787.d8b5e362.chunk.js": "/static/js/787.d8b5e362.chunk.js",
+    "static/media/logo.png": "/static/media/logo.ecaf758ea66f89837254.png",
+    "index.html": "/index.html",
+    "main.1a2e4531.css.map": "/static/css/main.1a2e4531.css.map",
+    "main.a8dd2674.js.map": "/static/js/main.a8dd2674.js.map",
+    "787.d8b5e362.chunk.js.map": "/static/js/787.d8b5e362.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a2e4531.css",
-    "static/js/main.c291d0d3.js"
+    "static/js/main.a8dd2674.js"
   ]
 }
