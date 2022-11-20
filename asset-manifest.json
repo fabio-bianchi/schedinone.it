@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/schedinone.it/static/css/main.1a2e4531.css",
+    "main.js": "/schedinone.it/static/js/main.a56c870f.js",
+    "static/js/787.d8b5e362.chunk.js": "/schedinone.it/static/js/787.d8b5e362.chunk.js",
+    "static/media/logo.png": "/schedinone.it/static/media/logo.ecaf758ea66f89837254.png",
+    "index.html": "/schedinone.it/index.html",
+    "main.1a2e4531.css.map": "/schedinone.it/static/css/main.1a2e4531.css.map",
+    "main.a56c870f.js.map": "/schedinone.it/static/js/main.a56c870f.js.map",
+    "787.d8b5e362.chunk.js.map": "/schedinone.it/static/js/787.d8b5e362.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a2e4531.css",
+    "static/js/main.a56c870f.js"
+  ]
+}
