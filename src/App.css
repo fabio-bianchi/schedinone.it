@@ -48,13 +48,22 @@ html {
 img.link {
   width:200px
 }
+img.regolamento {
+  width:360px
+}
 
+footer {
+  text-align:center;
+}
 footer img{
   width:100px
 }
 @media screen and (min-width: 900px) {
   img.link {
     width:400px
+  }
+  img.regolamento {
+    width:600px
   }
 
   footer img{
@@ -75,3 +84,8 @@ footer img{
 }
 
 
+div.iframeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

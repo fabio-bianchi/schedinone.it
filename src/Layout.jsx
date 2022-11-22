@@ -2,24 +2,20 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import logo from './LOGOSCHEDINONERESIZE.png';
-import background from './SFONDO.png';
+import Footer from './Footer';
 
 const Layout = () => {
   return (
     <>
       <Link to="/">
-        <div
-          className="App"
-          style={{
-            backgroundImage: `url(${background}) no-repeat center center fixed;`,
-          }}
-        >
+        <div className="App">
           <header>
             <img src={logo} className="App-logo" alt="logo" />
           </header>
         </div>
       </Link>
       <Outlet />
+      <Footer></Footer>
     </>
   );
 };

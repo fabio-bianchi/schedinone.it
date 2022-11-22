@@ -5,6 +5,7 @@ import Grid from './pages/Grid';
 import Files from './pages/Files'
 import Home from './pages/Home'
 import Layout from './Layout'
+import UnderConstruction from './pages/UnderConstruction';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="grid" element={<Grid />} />
           <Route path="files" element={<Files />} />
+          <Route path="underconstruction" element={<UnderConstruction />} />
         </Route>
       </Routes>
     </BrowserRouter>
