@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ad92b18.css",
-    "main.js": "/static/js/main.5a1cbf31.js",
+    "main.css": "/static/css/main.71220dd1.css",
+    "main.js": "/static/js/main.bc0b0b0a.js",
     "static/js/787.d8b5e362.chunk.js": "/static/js/787.d8b5e362.chunk.js",
     "static/media/SFONDO.png": "/static/media/SFONDO.62bceba444fba310efe6.png",
     "static/media/PURGARESIZE.png": "/static/media/PURGARESIZE.5c26aa7d97632b673c29.png",
     "static/media/LOGOSCHEDINONERESIZE.png": "/static/media/LOGOSCHEDINONERESIZE.d1bba799a12309ab7453.png",
     "static/media/MARTELLOPRODRESIZE.png": "/static/media/MARTELLOPRODRESIZE.b64edc3a245bdc009755.png",
     "index.html": "/index.html",
-    "main.9ad92b18.css.map": "/static/css/main.9ad92b18.css.map",
-    "main.5a1cbf31.js.map": "/static/js/main.5a1cbf31.js.map",
+    "main.71220dd1.css.map": "/static/css/main.71220dd1.css.map",
+    "main.bc0b0b0a.js.map": "/static/js/main.bc0b0b0a.js.map",
     "787.d8b5e362.chunk.js.map": "/static/js/787.d8b5e362.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ad92b18.css",
-    "static/js/main.5a1cbf31.js"
+    "static/css/main.71220dd1.css",
+    "static/js/main.bc0b0b0a.js"
   ]
 }
