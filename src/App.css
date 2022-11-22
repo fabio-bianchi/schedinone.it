@@ -8,7 +8,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .App-logo-1 {
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+html { 
+  background: url('SFONDO.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img.link {
+  width:200px
+}
+
+footer img{
+  width:100px
+}
+@media screen and (min-width: 900px) {
+  img.link {
+    width:400px
+  }
+
+  footer img{
+    width:200px
+  }
+}
+
+.roundLinks li  {
+  list-style-type: none;
+  margin-left: 0;
+  padding-right: 0;
+  
+  text-align: left;
+}
+
+.roundLinks li a {
+  color:white;
+}
+
+
