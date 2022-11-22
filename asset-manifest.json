@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a2e4531.css",
-    "main.js": "/static/js/main.a8dd2674.js",
+    "main.css": "/static/css/main.2968fe44.css",
+    "main.js": "/static/js/main.931c6b5d.js",
     "static/js/787.d8b5e362.chunk.js": "/static/js/787.d8b5e362.chunk.js",
-    "static/media/logo.png": "/static/media/logo.ecaf758ea66f89837254.png",
+    "static/media/SFONDO.png": "/static/media/SFONDO.62bceba444fba310efe6.png",
+    "static/media/PURGARESIZE.png": "/static/media/PURGARESIZE.5c26aa7d97632b673c29.png",
+    "static/media/LOGOSCHEDINONERESIZE.png": "/static/media/LOGOSCHEDINONERESIZE.d1bba799a12309ab7453.png",
+    "static/media/MARTELLOPRODRESIZE.png": "/static/media/MARTELLOPRODRESIZE.b64edc3a245bdc009755.png",
     "index.html": "/index.html",
-    "main.1a2e4531.css.map": "/static/css/main.1a2e4531.css.map",
-    "main.a8dd2674.js.map": "/static/js/main.a8dd2674.js.map",
+    "main.2968fe44.css.map": "/static/css/main.2968fe44.css.map",
+    "main.931c6b5d.js.map": "/static/js/main.931c6b5d.js.map",
     "787.d8b5e362.chunk.js.map": "/static/js/787.d8b5e362.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a2e4531.css",
-    "static/js/main.a8dd2674.js"
+    "static/css/main.2968fe44.css",
+    "static/js/main.931c6b5d.js"
   ]
 }
