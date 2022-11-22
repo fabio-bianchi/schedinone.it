@@ -6,11 +6,12 @@ import Files from './pages/Files'
 import Home from './pages/Home'
 import Layout from './Layout'
 import UnderConstruction from './pages/UnderConstruction';
+import useAnalytics from './analytics';
 
 
 function App() {
+  useAnalytics();
   return (
-    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -19,7 +20,6 @@ function App() {
           <Route path="underconstruction" element={<UnderConstruction />} />
         </Route>
       </Routes>
-    </BrowserRouter>
   );
 }
 

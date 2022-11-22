@@ -32,12 +32,12 @@ function Home() {
       </div>
       <div className='iframeContainer'>
       <Timeline
-        dataSource={{ sourceType: 'profile', screenName: 'FIFAWorldCup' }}
+        dataSource={{ sourceType: 'profile', screenName: 'bhkustv' }}
         options={{
           theme: "dark",
           chrome: "noheader, nofooter",
           width: "400",
-          height: "200"
+          height: "300"
         }}
       />
       </div>
