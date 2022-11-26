@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Layout from './Layout'
 import UnderConstruction from './pages/UnderConstruction';
 import useAnalytics from './analytics';
+import Charts from './pages/Charts';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="grid" element={<Grid />} />
           <Route path="files" element={<Files />} />
+          <Route path="stats" element={<Charts />} />
           <Route path="underconstruction" element={<UnderConstruction />} />
         </Route>
       </Routes>

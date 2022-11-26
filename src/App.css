@@ -69,6 +69,11 @@ footer img{
   footer img{
     width:200px
   }
+
+  .statsContainer {
+    width:800px;
+    height:1500px;
+  }
 }
 
 .roundLinks li  {
@@ -88,4 +93,9 @@ div.iframeContainer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.statsContainer {
+  width:360px;
+  height:1500px;
 }
