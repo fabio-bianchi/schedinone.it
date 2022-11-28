@@ -35,7 +35,6 @@ const Charts = memo(function Charts() {
       {
         label: 'Punteggi parziali',
         data: _.map(labels, (name)=> {
-          //console.log(_.find(partial, {Nome:name}));
           return _.find(partial, {Nome:name}).Totale
         }),
         borderWidth: 1,
