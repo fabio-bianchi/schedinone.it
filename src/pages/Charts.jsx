@@ -24,6 +24,20 @@ const Charts = memo(function Charts() {
         label: 'Vincitore',
         data: _.map(winners, 'length'),
         borderWidth: 1,
+        backgroundColor: ["#1077C3", "#FEC310","#56042C","#49bce3","#4911e3", "#49112c", "#cc11e3", "#4ff1e3", "#56049D"]
+      },
+    ],
+  };
+
+  const keepers = _.groupBy(all, 'Miglior portiere');
+  const goalkeeper = {
+    labels: _.keys(keepers),
+    datasets: [
+      {
+        label: 'Miglior portiere',
+        data: _.map(keepers, 'length'),
+        borderWidth: 1,
+        backgroundColor: ["#1077C3", "#FEC310","#56042C","#49bce3","#4911e3", "#49112c", "#cc11e3", "#4ff1e3", "#56049D"]
       },
     ],
   };
@@ -38,7 +52,7 @@ const Charts = memo(function Charts() {
           return _.find(partial, {Nome:name}).Totale
         }),
         borderWidth: 1,
-        backgroundColor: ["#1077C3", "#FEC310","#56042C"]
+        backgroundColor: ["#1077C3", "#FEC310","#56042C","#49bce3"]
       },
     ],
   };
@@ -56,12 +70,18 @@ const Charts = memo(function Charts() {
 
   return (
     <>
-      {/* <div style={{ width: '600px', textAlign: 'center' }}>
-        <Pie label="Vincitore" data={data} />
-      </div> */}
+      
       <div className='statsContainer' style={{textAlign: 'center' }}>
         <Bar options={options} data={partialData} />
       </div>
+      <h2 style={{ textAlign: 'center', color: "#56042C"}}>Vincitore</h2>
+      <div className='statsContainer' style={{maxHeight:750, textAlign: 'center' }}>
+        <Pie data={data} />
+      </div> 
+      <h2 style={{ textAlign: 'center', color: "#56042C"}}>Miglior portiere</h2>
+      <div className='statsContainer' style={{maxHeight:750, textAlign: 'center' }}>
+        <Pie data={goalkeeper} />
+      </div> 
     </>
   );
 });

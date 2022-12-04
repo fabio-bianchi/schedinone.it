@@ -70,10 +70,7 @@ footer img{
     width:200px
   }
 
-  .statsContainer {
-    width:800px;
-    height:1500px;
-  }
+  
 }
 
 .roundLinks li  {
@@ -95,7 +92,9 @@ div.iframeContainer {
   justify-content: center;
 }
 
-.statsContainer {
-  width:360px;
+div.statsContainer {
+  width: 50%;
+  margin: 50px auto;
   height:1500px;
+  
 }

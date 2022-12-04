@@ -1,4 +1,5 @@
 import { useTable, useSortBy } from 'react-table'
+import ReactTooltip from "react-tooltip";
 
 export default function Table({ columns, data }) {
     // Use the state and functions returned from useTable to build your UI
@@ -16,6 +17,7 @@ export default function Table({ columns, data }) {
     // Render the UI for your table
     return (
       <table {...getTableProps()}>
+        <ReactTooltip place="left" type="success" effect="solid" />
         <thead>
           {headerGroups.map(headerGroup => (
             <tr {...headerGroup.getHeaderGroupProps()}>
