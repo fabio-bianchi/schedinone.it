@@ -40,7 +40,7 @@ function Grid() {
             columns: [
               {
                 Header: 'Nome',
-                accessor: 'Nome ',
+                accessor: ((rows) => rows['Nome '].toLowerCase()),
               },
               {
                 Header: 'Soprannome',
@@ -182,7 +182,7 @@ function Grid() {
     return (
         <>
         <Styles>
-        <Table data={data} columns={columns}></Table>
+        <Table data={data} columns={columns} initialSortBy={{id: 'Nome', desc: false}}></Table>
         </Styles>
         </>
     );

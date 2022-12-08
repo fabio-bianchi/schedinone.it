@@ -1,7 +1,7 @@
 import { useTable, useSortBy } from 'react-table'
 import ReactTooltip from "react-tooltip";
 
-export default function Table({ columns, data }) {
+export default function Table({ columns, data, initialSortBy }) {
     // Use the state and functions returned from useTable to build your UI
     const {
       getTableProps,
@@ -12,6 +12,11 @@ export default function Table({ columns, data }) {
     } = useTable({
       columns,
       data,
+      initialState: {
+        sortBy: [
+          initialSortBy
+        ]
+      }
     }, useSortBy)
   
     // Render the UI for your table

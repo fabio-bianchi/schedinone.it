@@ -26,7 +26,7 @@ function Home() {
         </Link>
       </div>
       <div style={{ textAlign: 'center', padding: 10 }}>
-        <Link to="/underconstruction">
+        <Link to="/results">
           <img alt="risultati" className="link" src="b/RISULTATI.png"></img>
         </Link>
       </div>

@@ -217,22 +217,70 @@ function Results(){
         ],
         []
     );
+
+    const columnsQuarter = React.useMemo(
+      () => [
+        {
+          Header: 'Nome Squadra',
+          columns: [
+            {
+              Header: 'Nome',
+              accessor: 'Nome',
+            },
+            {
+              Header: 'Totale',
+              accessor: 'Totale',
+            }
+          ],
+        },
+        {
+          Header: 'Quarti',
+          columns: [
+            { Header: 'MATCH 1', accessor: ((rows) => rows['QUARTI [Match 1]']) },
+            { Header: 'MATCH 2', accessor: ((rows) => rows['QUARTI [Match 2]']) },
+            { Header: 'MATCH 3', accessor: ((rows) => rows['QUARTI [Match 3]']) },
+            { Header: 'MATCH 4', accessor: ((rows) => rows['QUARTI [Match 4]']) },
+          
+          ]
+        },
+      ],
+      []
+  );
     return (
     <>
         <Styles>
-            <Table data={scores} columns={scoreColumns}></Table>
-        </Styles>
-        <Styles>
-            <Table data={results} columns={columns}></Table>
+            <Table data={scores} columns={scoreColumns} initialSortBy={{}}></Table>
         </Styles>
 
         <Styles>
-            <Table data={results} columns={columns2}></Table>
+            <Table data={results} columns={columnsQuarter} initialSortBy={ {
+                id: 'Totale',
+                desc: true
+            }}></Table>
         </Styles>
 
         <Styles>
-            <Table data={results} columns={columns3}></Table>
+            <Table data={results} columns={columns3} initialSortBy={ {
+                id: 'Totale',
+                desc: true
+            }}></Table>
         </Styles>
+
+        <Styles>
+            <Table data={results} columns={columns} initialSortBy={ {
+                id: 'Totale',
+                desc: true
+            }}></Table>
+        </Styles>
+
+        <Styles>
+            <Table data={results} columns={columns2} initialSortBy={ {
+                id: 'Totale',
+                desc: true
+            }}></Table>
+        </Styles>
+
+        
     </>)
 }
 

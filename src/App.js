@@ -22,6 +22,7 @@ function App() {
           <Route path="stats" element={<Charts />} />
           <Route path="underconstruction" element={<UnderConstruction />} />
           <Route path="booster-controlla-i-risultati-pio-ladro-2022" element={<Results />} />
+          <Route path="results" element={<Results />} />
         </Route>
       </Routes>
   );

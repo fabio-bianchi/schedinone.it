@@ -1,16 +1,16 @@
 import React from 'react';
-import { Chart as ChartJS, ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement } from 'chart.js';
+import { Chart as ChartJS, ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement, Title } from 'chart.js';
 import { Pie, Bar } from 'react-chartjs-2';
 import makeData from '../makeData';
 import _ from 'lodash';
 import { memo } from 'react';
 import { Colors } from 'chart.js';
-import partial from '../partial.json'
+import partial from '../results.json'
 
 ChartJS.defaults.font.size = 14;
 ChartJS.defaults.font.weight = 'bold';
-ChartJS.defaults.color = '#ffffff';
-ChartJS.register(ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement);
+ChartJS.defaults.color = '#000000';
+ChartJS.register(ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement, Title);
 ChartJS.register(Colors);
 
 const Charts = memo(function Charts() {
@@ -60,6 +60,15 @@ const Charts = memo(function Charts() {
   const options = {
     indexAxis: "y",
     responsive: true,
+    plugins: {
+      legend: {
+        position: 'bottom',
+      },
+      title: {
+        display: true,
+        text: 'Punteggi parziali',
+      },
+    },
     maintainAspectRatio: false,
     elements: {
       bar: {
@@ -75,11 +84,11 @@ const Charts = memo(function Charts() {
         <Bar options={options} data={partialData} />
       </div>
       <h2 style={{ textAlign: 'center', color: "#56042C"}}>Vincitore</h2>
-      <div className='statsContainer' style={{maxHeight:750, textAlign: 'center' }}>
+      <div className='statsContainerSmall' style={{maxHeight:750, textAlign: 'center' }}>
         <Pie data={data} />
       </div> 
       <h2 style={{ textAlign: 'center', color: "#56042C"}}>Miglior portiere</h2>
-      <div className='statsContainer' style={{maxHeight:750, textAlign: 'center' }}>
+      <div className='statsContainerSmall' style={{maxHeight:750, textAlign: 'center' }}>
         <Pie data={goalkeeper} />
       </div> 
     </>

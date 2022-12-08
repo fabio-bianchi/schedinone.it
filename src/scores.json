@@ -1,11 +1,11 @@
 [
     {
         "Voce": "Capocannoniere",
-        "Risultato": "Mbappe,Messi"
+        "Risultato": "Mbappe"
     },
     {
         "Voce": "Squadra con miglior attacco",
-        "Risultato": "Spagna"
+        "Risultato": "Inghilterra,Spagna"
     },
     {
         "Voce": "Squadra con peggior difesa",
@@ -160,10 +160,6 @@
         "Risultato": "Brasile, Corea del Sud:Portogallo, Svizzera"
     },
     {
-        "Voce": "OTTAVI [Match 8]",
-        "Risultato": "Portogallo, Svizzera:Brasile, Corea del Sud"
-    },
-    {
         "Voce": "OTTAVI [Match 5]",
         "Risultato": "Inghilterra, Senegal:Olanda, USA"
     },
@@ -174,6 +170,26 @@
     {
         "Voce": "OTTAVI [Match 7]",
         "Risultato": "Marocco, Spagna:Croazia, Giappone"
+    },
+    {
+        "Voce": "OTTAVI [Match 8]",
+        "Risultato": "Portogallo, Svizzera:Brasile, Corea del Sud"
+    },
+    {
+        "Voce": "QUARTI [Match 1]",
+        "Risultato": "Olanda,Argentina:Francia,Inghilterra"
+    },
+    {
+        "Voce": "QUARTI [Match 2]",
+        "Risultato": "Marocco,Portogallo:Croazia,Brasile"
+    },
+    {
+        "Voce": "QUARTI [Match 3]",
+        "Risultato": "Francia,Inghilterra:Olanda,Argentina"
+    },
+    {
+        "Voce": "QUARTI [Match 4]",
+        "Risultato": "Croazia,Brasile:Marocco,Portogallo"
     }
     
 ]
