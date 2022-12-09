@@ -58,20 +58,7 @@ footer {
 footer img{
   width:100px
 }
-@media screen and (min-width: 900px) {
-  img.link {
-    width:400px
-  }
-  img.regolamento {
-    width:600px
-  }
 
-  footer img{
-    width:200px
-  }
-
-  
-}
 
 .roundLinks li  {
   list-style-type: none;
@@ -93,8 +80,34 @@ div.iframeContainer {
 }
 
 div.statsContainer {
-  width: 50%;
+  width:80%;
   margin: 50px auto;
   height:1500px;
+  
+}
+
+@media screen and (min-width: 900px) {
+  img.link {
+    width:400px
+  }
+  img.regolamento {
+    width:600px
+  }
+
+  footer img{
+    width:200px
+  }
+
+  div.statsContainer {
+    width: 50%;
+    margin: 10px auto;
+    height:1500px;
+  }
+
+  div.statsContainerSmall{
+    width: 50%;
+    margin: 5px auto;
+    height:500px;
+  }
   
 }
