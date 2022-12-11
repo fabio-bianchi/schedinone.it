@@ -59,13 +59,13 @@ footer img{
   width:100px
 }
 
-
 .roundLinks li  {
   list-style-type: none;
   margin-left: 0;
   padding-right: 0;
   font-weight: 400;
   text-align: left;
+  padding-top: 10px;
 }
 
 .roundLinks li a {
