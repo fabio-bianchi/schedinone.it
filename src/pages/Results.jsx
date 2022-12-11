@@ -243,6 +243,14 @@ function Results(){
           
           ]
         },
+        {
+          Header: 'Semi',
+          columns: [
+            { Header: 'SEMI MATCH 1', accessor: ((rows) => rows['SEMIFINALE [Match 1]']) },
+            { Header: 'SEMI MATCH 2', accessor: ((rows) => rows['SEMIFINALE [Match 2]']) },
+          
+          ]
+        },
       ],
       []
   );

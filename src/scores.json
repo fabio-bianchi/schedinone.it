@@ -190,6 +190,14 @@
     {
         "Voce": "QUARTI [Match 4]",
         "Risultato": "Croazia,Brasile:Marocco,Portogallo"
+    },
+    {
+        "Voce": "SEMIFINALE [Match 1]",
+        "Risultato": "Croazia,Argentina:Marocco,Francia"
+    },
+    {
+        "Voce": "SEMIFINALE [Match 2]",
+        "Risultato": "Marocco,Francia:Croazia,Argentina"
     }
     
 ]
